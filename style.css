@@ -243,7 +243,7 @@ nav {
 }
 
 .logining {
-    background-color: #F6F5F4;
+    background-color: #C3DCE3;
     border-radius: 100px;
     width: 41px;
     height: 40px;
@@ -285,8 +285,8 @@ nav {
 }
 
 .logining:hover {
-    color: #2B788B;
-    background-color: #C3DCE3;
+    color: #757575;
+    border: 1px solid #757575;
 }
 
 /* პირველი კონტეინერი */ 
@@ -310,6 +310,7 @@ nav {
 .textbookbutt {
     background-color: #ffffff;
     border: none;
+    margin-left: 22px;
 }
 
 .textbook1 {
@@ -330,6 +331,7 @@ nav {
 .dictionary {
     background-color: #ffffff;
     border: none;
+    border-left: 1.21942px solid #E0E0E0;
 }
 
 .dicti:hover {
@@ -383,7 +385,7 @@ svg:hover {
 }
 
 .div3-3 {
-    width: 250px;
+    width: 255px;
     height: 44px;
     background-color: #C3DCE3;
     border-radius: 14px;
@@ -446,10 +448,27 @@ svg:hover {
     height: 42px;
     display: flex;
     align-items: center;
+    position: relative;
+}
+
+.div4-1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    width: 0%;
+    background-color: #000000;
+    transition: all .3s;
 }
 
 .div4-1:hover {
-    border-bottom: 2px solid black;
+    color: #000000;
+}
+
+.div4-1:hover::after {
+    width: 100%;
+
 }
 
 .a1 {
@@ -461,8 +480,16 @@ svg:hover {
     color: #757575;
 }
 
-.a1:hover {
+.a1:visited {
     color: #000000;
+}
+
+.div4a1 {
+    text-decoration: none;
+}
+
+.div4a1:visited {
+    border-bottom: 2px solid black;
 }
 
 .easybutt {
@@ -470,13 +497,18 @@ svg:hover {
     height: 25px;
     border-radius: 4px;
     border: none;
-    background-color: #639B6D;
+    background-color: rgba(99, 155, 109, 0.3);
     font-family: 'montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
-    color: #F6F5F4;
+    color: #639B6D;
     margin-left: 12px;
+}
+
+.easybutt:visited {
+    background-color: #639B6D;
+    color: #F6F5F4;
 }
 
 .div4-2 {
@@ -485,11 +517,33 @@ svg:hover {
     display: flex;
     align-items: center;
     margin-left: 40px;
+    position: relative;
+}
+
+.div4-2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    width: 0%;
+    background-color: #000000;
+    transition: all .3s;
 }
 
 .div4-2:hover {
-    border-bottom: 2px solid black;
+    color: #000000;
 }
+
+.div4-2:hover::after {
+    width: 100%;
+
+}
+
+.div4a2 {
+    text-decoration: none;
+}
+
 
 .a2 {
     font-style: normal;
@@ -524,10 +578,31 @@ svg:hover {
     display: flex;
     align-items: center;
     margin-left: 40px;
+    position: relative;
+}
+
+.div4-3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    width: 0%;
+    background-color: #000000;
+    transition: all .3s;
 }
 
 .div4-3:hover {
-    border-bottom: 2px solid black;
+    color: #000000;
+}
+
+.div4-3:hover::after {
+    width: 100%;
+
+}
+
+.div4a3 {
+    text-decoration: none;
 }
 
 .b1 {
@@ -563,10 +638,31 @@ svg:hover {
     display: flex;
     align-items: center;
     margin-left: 40px;
+    position: relative;
+}
+
+.div4-4::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    width: 0%;
+    background-color: #000000;
+    transition: all .3s;
 }
 
 .div4-4:hover {
-    border-bottom: 2px solid black;
+    color: #000000;
+}
+
+.div4-4:hover::after {
+    width: 100%;
+
+}
+
+.div4a4 {
+    text-decoration: none;
 }
 
 .b2 {
@@ -602,10 +698,31 @@ svg:hover {
     display: flex;
     align-items: center;
     margin-left: 40px;
+    position: relative;
+}
+
+.div4-5::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    width: 0%;
+    background-color: #000000;
+    transition: all .3s;
 }
 
 .div4-5:hover {
-    border-bottom: 2px solid black;
+    color: #000000;
+}
+
+.div4-5:hover::after {
+    width: 100%;
+
+}
+
+.div4a5 {
+    text-decoration: none;
 }
 
 .c1 {
@@ -641,10 +758,31 @@ svg:hover {
     display: flex;
     align-items: center;
     margin-left: 40px;
+    position: relative;
+}
+
+.div4-6::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    width: 0%;
+    background-color: #000000;
+    transition: all .3s;
 }
 
 .div4-6:hover {
-    border-bottom: 2px solid black;
+    color: #000000;
+}
+
+.div4-6:hover::after {
+    width: 100%;
+
+}
+
+.div4a6 {
+    text-decoration: none;
 }
 
 .c2 {
@@ -689,7 +827,7 @@ svg:hover {
 }
 
 .div5-1 {
-    width: 556px;
+    width: 589px;
     height: 336px;
     background-color: #ffffff;
 }
@@ -699,8 +837,7 @@ svg:hover {
     justify-content: center;
     align-items: center;
     height: 40px;
-    width: 100%;
-    margin-top: 27px;
+    margin: 27px 40px;
 }
 
 
@@ -709,7 +846,7 @@ svg:hover {
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .notes {
@@ -742,7 +879,7 @@ svg:hover {
     font-weight: 600;
     font-size: 18px;
     color: #000000;
-    margin-left: 60px;
+    margin-left: 40px;
 }
 
 .compound {
@@ -761,17 +898,127 @@ svg:hover {
 .h5-1 {
     font-family: 'montserrat';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
+    color: #000000;
 }
 
 .div5-5 {
     width: 516px;
     height: 96px;
-    margin-top: 24px;
-    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 25px;
+    padding-left: 40px;
+    padding-top: 20px;
 }
 
 .divh5 {
     border-bottom: 1.21942px solid #E0E0E0;
+}
+
+.p5 {
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #757575;
+    padding-left: 40px;
+    margin: 0;
+    padding-top: 60px;
+}
+
+.div5butt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.div5butt1 {
+    border: none;
+    border-radius: 100px;
+    background-color: #639B6D;
+    color: #F6F5F4;
+    width: 156px;
+    height: 40px;
+}
+
+.div5butt1:hover {
+    border: 2px solid #000000;
+}
+
+.div5butt2 {
+    width: 230px;
+    height: 40px;
+    border: none;
+    border-radius: 100px;
+    margin-left: 20px;
+    background-color: rgba(203, 91, 67, 0.3);
+    color: #CB5B43;
+}
+
+.div5butt2:hover {
+    border: 2px solid #000000;
+}
+
+/* მეოთხე კონტეინერი */
+
+.div6 {
+    margin: 40px auto;
+    padding: 0;
+    width: 926px;
+    height: 336px;
+    display: flex;
+    background-color: #ffffff;
+}
+
+.pianist {
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+}
+
+.div6-1 {
+    width: 589px;
+    height: 336px;
+    background-color: #ffffff;
+}
+
+.div6-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 27px 40px;
+}
+
+.awful {
+    font-family: delagothic;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #000000;
+}
+
+.awful1 {
+    margin: 0;
+}
+
+.terrible {
+    color: #757575;
+}
+
+.div6-3{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.fel {
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0;
+    padding-left: 40px;
 }
