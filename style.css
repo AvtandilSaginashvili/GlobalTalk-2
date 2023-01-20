@@ -534,6 +534,15 @@ nav {
     text-decoration: none;
 }
 
+.div4a1:hover .a1 {
+    color: #000000;
+}
+
+.div4a1:hover .easybutt {
+    background-color: #639B6D;
+    color: #F6F5F4;
+}
+
 .easybutt {
     width: 43px;
     height: 25px;
@@ -581,6 +590,14 @@ nav {
     text-decoration: none;
 }
 
+.div4a2:hover .a2 {
+    color: #000000;
+}
+
+.div4a2:hover .easybutt1 {
+    background-color: #639B6D;
+    color: #F6F5F4;
+}
 
 .a2 {
     font-style: normal;
@@ -640,6 +657,15 @@ nav {
 
 .div4a3 {
     text-decoration: none;
+}
+
+.div4a3:hover .b1 {
+    color: #000000;
+}
+
+.div4a3:hover .easybutt2 {
+    background-color: #C4A24C;
+    color: #F6F5F4;
 }
 
 .b1 {
@@ -702,6 +728,15 @@ nav {
     text-decoration: none;
 }
 
+.div4a4:hover .b2 {
+    color: #000000;
+}
+
+.div4a4:hover .easybutt3 {
+    background-color: #C4A24C;
+    color: #F6F5F4;
+}
+
 .b2 {
     font-style: normal;
     font-family: delagothic;
@@ -760,6 +795,15 @@ nav {
 
 .div4a5 {
     text-decoration: none;
+}
+
+.div4a5:hover .c1 {
+    color: #000000;
+}
+
+.div4a5:hover .easybutt4 {
+    background-color: #CB5B43;
+    color: #F6F5F4;
 }
 
 .c1 {
@@ -822,6 +866,15 @@ nav {
     text-decoration: none;
 }
 
+.div4a6:hover .c2 {
+    color: #000000;
+}
+
+.div4a6:hover .easybutt5 {
+    background-color: #CB5B43;
+    color: #F6F5F4;
+}
+
 .c2 {
     font-style: normal;
     font-family: delagothic;
@@ -867,6 +920,8 @@ nav {
     width: 589px;
     height: 336px;
     background-color: #ffffff;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
 }
 
 .div5-2 {
@@ -1069,7 +1124,8 @@ nav {
 }
 
 .pagination {
-    display: inline-block;
+    display: flex;
+    gap: 30px;
   }
   
   .pagination a {
@@ -1081,7 +1137,6 @@ nav {
     width: 44px;
     height: 44px;
     padding: 8px 16px;
-    margin-left: 30px;
     text-decoration: none;
     font-family: 'montserrat';
     font-style: normal;
