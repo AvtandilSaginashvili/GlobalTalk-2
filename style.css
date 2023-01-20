@@ -38,7 +38,6 @@ nav {
 
 .div1-1 {
     width: 1180px;
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +60,9 @@ nav {
     font-size: 16px;
     text-decoration: none;
     color: #757575;
-    margin-left: 60px;
+    margin-left: 30px;
+    border-left: 1px solid #E0E0E0;
+    padding-left: 30px;
 }
 
 .home::after {
@@ -70,6 +71,7 @@ nav {
     left: 0;
     bottom: -2px;
     height: 2px;
+    margin-left: 30px;
     width: 0%;
     background-color: #000000;
     transition: all .2s;
@@ -80,7 +82,7 @@ nav {
 }
 
 .home:hover::after {
-    width: 100%;
+    width: 49px;
 
 }
 
@@ -225,14 +227,51 @@ nav {
     padding-left: 20px;
     padding-top: 20px;
     color: #828282;
+    position: relative;
   }
+
+  .sprint::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    margin-left: 16px;
+    margin-bottom: 10px;
+    width: 0%;
+    background-color: #000000;
+    transition: all .2s;
+}
+
+.sprint:hover::after {
+    width: 65px;
+}
+
   .audiocall {
     font-family: montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     color: #828282;
+    position: relative;
   }
+
+  .audiocall::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    margin-left: 16px;
+    margin-bottom: 10px;
+    width: 0%;
+    background-color: #000000;
+    transition: all .2s;
+}
+
+.audiocall:hover::after {
+    width: 98px;
+}
 
   /* Alex & sign out */
 
@@ -267,8 +306,9 @@ nav {
 }
 
 .signout {
-    position: relative;
-    margin-left: 21px;
+    margin-left: 30px;
+    padding-left: 18.9px;
+    padding-right: 0px;
     width: 90px;
     height: 36px;
     color: #757575;
@@ -328,18 +368,27 @@ nav {
     color: #000000;
 }
 
+.textbookbutt:hover svg {
+    stroke: #000000;
+    fill: #000000;
+}
+
 .dictionary {
     background-color: #ffffff;
     border: none;
     border-left: 1.21942px solid #E0E0E0;
+    padding-left: 21px;
+    margin-left: 20px;
 }
 
 .dicti:hover {
     color: #000000;
 }
 
-svg:hover {
-    fill: black;
+.dictionary:hover svg {
+    stroke: #000000;
+    color: #000000;
+    fill: #000000;
 }
 
 .dicti {
@@ -480,16 +529,12 @@ svg:hover {
     color: #757575;
 }
 
-.a1:visited {
+.a1:hover {
     color: #000000;
 }
 
 .div4a1 {
     text-decoration: none;
-}
-
-.div4a1:visited {
-    border-bottom: 2px solid black;
 }
 
 .easybutt {
@@ -504,11 +549,6 @@ svg:hover {
     font-size: 12px;
     color: #639B6D;
     margin-left: 12px;
-}
-
-.easybutt:visited {
-    background-color: #639B6D;
-    color: #F6F5F4;
 }
 
 .div4-2 {
@@ -834,7 +874,6 @@ svg:hover {
 
 .div5-2 {
     display: flex;
-    justify-content: center;
     align-items: center;
     height: 40px;
     margin: 27px 40px;
@@ -859,10 +898,9 @@ svg:hover {
     border-radius: 4px;
     background-color: #F6F5F4;
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-left: auto;
-    margin-right: 33px;
+
 }
 
 .div5-4 {
@@ -899,23 +937,24 @@ svg:hover {
     font-family: 'montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 14.8px;
     color: #000000;
+    margin: 0;
 }
 
 .div5-5 {
-    width: 516px;
-    height: 96px;
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100%;
-    height: 25px;
-    padding-left: 40px;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .divh5 {
+    display: flex;
+    align-items: center;
     border-bottom: 1.21942px solid #E0E0E0;
+    padding-bottom: 20px;
 }
 
 .p5 {
@@ -926,14 +965,14 @@ svg:hover {
     color: #757575;
     padding-left: 40px;
     margin: 0;
-    padding-top: 60px;
+    margin-top: 12px;
 }
 
 .div5butt {
     display: flex;
     align-items: center;
-    justify-content: center;
     margin-top: 20px;
+    margin-left: 40px;
 }
 
 .div5butt1 {
@@ -1021,4 +1060,197 @@ svg:hover {
     font-size: 18px;
     margin: 0;
     padding-left: 40px;
+}
+
+/* Pagination */ 
+
+.pagination001 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5996A5;
+    float: left;
+    width: 44px;
+    height: 44px;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    border: 3px solid #2B788B;
+    border-radius: 100px;
+  }
+
+  .pagination a.active {
+    background-color: #2B788B;
+    color: #F6F5F4;
+  }
+
+  .pagination a:hover:not(.active) {
+    background-color: #2B788B;
+    color: #F6F5F4;
+}
+
+.pagination a:hover:active {
+    background-color: #2B788B;
+    color: #F6F5F4;
+}
+
+/* Footer კონტეინერი */
+
+.footer {
+    background-color: #F6F5F4;
+    height: 160px;
+    margin: 0;
+    margin-top: 100px;
+    padding: 0;
+}
+
+.line {
+    display: flex;
+    margin: 0 auto;
+    width: 1180px;
+}
+
+.links {
+    width: 100%;
+}
+
+.home1 {
+    text-decoration: none;
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #757575;
+}
+
+.textbook0 {
+    text-decoration: none;
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #757575;
+    padding-left: 30px;
+}
+
+.statistics003 {
+    text-decoration: none;
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #757575;
+    padding-left: 30px;
+}
+
+.sprinttext {
+    text-decoration: none;
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #757575;
+    padding-left: 30px;
+}
+
+.audio1 {
+    text-decoration: none;
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #757575;
+    padding-left: 30px;
+}
+
+.names {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.alex {
+    text-decoration: none;
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #757575;
+}
+
+.gabriel {
+    text-decoration: none;
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #757575;
+    padding-left: 30px;
+}
+
+.marcus {
+    text-decoration: none;
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #757575;
+    padding-left: 30px;
+}
+
+.line2 {
+    display: flex;
+    margin: 0 auto;
+    width: 1180px;
+    height: 74px;
+    border-top: 1px solid #E0E0E0;
+}
+
+.media {
+    width: 100%;
+    height: 74px;
+}
+
+.last {
+    width: 100%;
+    height: 74px;
+    display: flex;
+    justify-content: end;
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #757575;
+}
+
+.cikvi {
+    height: 19.871854782104492px;
+    width: 24.81036376953125px;
+    border-radius: 0px;
+}
+
+.gt {
+    width: 27.9px;
+    height: 18.73px;
+    margin-left: 30px;
+}
+
+.youtube {
+    Width: 25.1px;
+    Height: 17.57px;
+    margin-left: 30px;
 }
