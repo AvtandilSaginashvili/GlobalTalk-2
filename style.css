@@ -368,8 +368,7 @@ nav {
     color: #000000;
 }
 
-.textbookbutt:hover svg {
-    stroke: #000000;
+.textbookbutt:hover svg path {
     fill: #000000;
 }
 
@@ -385,9 +384,7 @@ nav {
     color: #000000;
 }
 
-.dictionary:hover svg {
-    stroke: #000000;
-    color: #000000;
+.dictionary:hover svg path {
     fill: #000000;
 }
 
@@ -1084,6 +1081,7 @@ nav {
     width: 44px;
     height: 44px;
     padding: 8px 16px;
+    margin-left: 30px;
     text-decoration: none;
     font-family: 'montserrat';
     font-style: normal;
